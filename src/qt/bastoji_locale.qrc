@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bastoji_bg.qm</file>
+        <file alias="de">locale/bastoji_de.qm</file>
+        <file alias="en">locale/bastoji_en.qm</file>
+        <file alias="es">locale/bastoji_es.qm</file>
+        <file alias="fi">locale/bastoji_fi.qm</file>
+        <file alias="fr">locale/bastoji_fr.qm</file>
+        <file alias="it">locale/bastoji_it.qm</file>
+        <file alias="ja">locale/bastoji_ja.qm</file>
+        <file alias="nl">locale/bastoji_nl.qm</file>
+        <file alias="pl">locale/bastoji_pl.qm</file>
+        <file alias="pt">locale/bastoji_pt.qm</file>
+        <file alias="ru">locale/bastoji_ru.qm</file>
+        <file alias="sk">locale/bastoji_sk.qm</file>
+        <file alias="sv">locale/bastoji_sv.qm</file>
+        <file alias="vi">locale/bastoji_vi.qm</file>
+        <file alias="zh_CN">locale/bastoji_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bastoji_zh_TW.qm</file>
+    </qresource>
+</RCC>
