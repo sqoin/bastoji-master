@@ -1,0 +1,22 @@
+[Unit]
+Description=Bastoji's distributed currency daemon
+After=network.target
+
+[Service]
+User=bastojicore
+Group=bastojicore
+
+Type=forking
+PIDFile=/var/lib/bastojid/bastojid.pid
+ExecStart=/usr/bin/bastojid -daemon -pid=/var/lib/bastojid/bastojid.pid \
+-conf=/etc/bastojicore/bastoji.conf -datadir=/var/lib/bastojid -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

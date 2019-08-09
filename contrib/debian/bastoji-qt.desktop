@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bastoji Core
+Comment=Bastoji P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Bastoji peer-to-peer Netzwerk
+Comment[fr]=Bastoji, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bastoji, eşten eşe kriptografik sanal para birimi
+Exec=bastoji-qt %u
+Terminal=false
+Type=Application
+Icon=bastoji128
+MimeType=x-scheme-handler/bastoji;
+Categories=Office;Finance;

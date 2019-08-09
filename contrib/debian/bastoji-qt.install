@@ -1,0 +1,6 @@
+usr/local/bin/bastoji-qt usr/bin
+share/pixmaps/bastoji32.xpm usr/share/pixmaps
+share/pixmaps/bastoji16.xpm usr/share/pixmaps
+share/pixmaps/bastoji128.png usr/share/pixmaps
+debian/bastoji-qt.desktop usr/share/applications
+debian/bastoji-qt.protocol usr/share/kde4/services/

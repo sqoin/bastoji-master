@@ -1,0 +1,70 @@
+Source: bastoji
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@bastoji.com>
+Uploaders: Holger Schinzel <holger@bastoji.com>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.47),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.47),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.47),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.47),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.47),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.47),
+ libminiupnpc8-dev | libminiupnpc-dev,
+ qt4-qmake, libqt4-dev,
+ qttools5-dev-tools, qttools5-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python,
+ libzmq3-dev
+Standards-Version: 3.9.2
+Homepage: http://www.sqoin.us/
+Vcs-Git: git://github.com/bastojipay/bastoji.git
+Vcs-Browser: https://github.com/bastojipay/bastoji
+
+Package: bastojid
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Bastoji is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bastoji uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Bastoji Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, bastojid, and the CLI tool
+ bastoji-cli to interact with the daemon.
+
+Package: bastoji-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Bastoji is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bastoji uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Bastoji Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides Bastoji-Qt, a GUI for Bastoji based on Qt.
+
+Package: bastoji-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ Bastoji is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bastoji uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Bastoji Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides bastoji-tx, a command-line transaction creation
+ tool which can be used without a bastoji daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.
