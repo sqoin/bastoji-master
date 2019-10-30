@@ -234,9 +234,9 @@ public:
 				consensus.hashGenesisBlock
 						== uint256S(
 								"000003e2497f9edd4111858f5eded317933c405735afb0db1d42987274ac6846"));
-		vSeeds.push_back(CDNSSeedData("dns1.bastoji.com", "dns1.bastoji.com"));
-		vSeeds.push_back(CDNSSeedData("dns2.bastoji.com", "dns2.bastoji.com"));
-		vSeeds.push_back(CDNSSeedData("dns3.bastoji.com", "dns3.bastoji.com"));
+		vSeeds.push_back(CDNSSeedData("dns1.sqoin.us", "dns1.sqoin.us"));
+		vSeeds.push_back(CDNSSeedData("dns2.sqoin.us", "dns2.sqoin.us"));
+		vSeeds.push_back(CDNSSeedData("dns3.sqoin.us", "dns3.sqoin.us"));
 		//  assert(consensus.hashGenesisBlock == uint256S("0x000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e"));
 		//  assert(genesis.hashMerkleRoot == uint256S("0xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7"));
 
@@ -416,8 +416,8 @@ public:
 
 		// nodes with support for servicebits filtering should be at the top
 		vSeeds.push_back(
-				CDNSSeedData("dns1.testnet.bastoji.com",
-						"dns1.testnet.bastoji.com"));
+				CDNSSeedData("dns1.testnet.sqoin.us",
+						"dns1.testnet.sqoin.us"));
 
 		vFixedSeeds = std::vector < SeedSpec6
 				> (pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
